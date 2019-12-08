@@ -1,0 +1,388 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: verdana;
+	font-size: 12px;
+	line-height: 16px;
+}
+.template{
+	width: 1000px;
+	margin: 0 auto;
+	border-left: 1px solid #2c2c2d;
+}
+.clear{
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+}
+p{
+	margin-bottom: 20px;
+}
+.headersection{
+	height: 60px;
+	background: #eaf2f4;
+	border-top: 5px solid #4d4e49;
+	border-bottom: 1px solid #b6c6c9;
+}
+
+.headerleft{
+	float: left;
+	width: 500px;
+	margin-right: 50px;
+	font-family: georgia;
+	color: #4d4e49;
+}
+.headerleft h2 {
+    float: left;
+    font-size: 36px;
+    margin-top: 10px;
+    border-right: 2px solid #4d4e49;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.headerleft p {
+    float: left;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.headerright {
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.headerright input[type="text"]{
+	width: 245px;
+	background: #d5e5e8;
+	border: 1px solid #a1bcc2;
+	padding: 5px;
+	margin-right: 5px;
+
+}
+.headerright input[type="submit"]{
+	background: #d5e5e8 none repeat scroll 0 0;
+	border: 1px solid #a1bcc2;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.menusection{
+	background: #eaf2f4;
+	height: 45px;
+}
+.menuleft{
+	float: left;
+	width: 600px;
+	color: #666;
+	margin-right: 25px;
+}
+.menuleft ul{
+	margin: 0;
+	padding: 0;
+}
+.menuleft ul li {
+    float: left;
+    display: block;
+    padding: 10px 25px;
+    font-size: 15px;
+    margin: 4px 0;
+    border-right:1px solid #b6c6c9;
+    cursor: pointer;
+}
+.menuleft ul li:last-child{
+	border-right: none;
+}
+.menuleft ul li a{
+	display: block;	
+}
+.menuleft ul li a:hover{
+
+}
+
+.menuright{
+	float: right;
+	width: 170px;
+	color: #666;
+	padding-top: 10px;
+
+}
+.menuright p{
+	margin: 0;
+}
+
+.bannersection{
+	background: #049bac;
+	height: 335px;
+	border-top: 2px solid #116fa6;
+	border-bottom: 2px solid #116fa6;
+}
+.bannerleft {
+	float: left;
+	width: 465px;
+	margin: 0 20px;
+}
+.bannerleft h2 {
+    color: #fff;
+    font-family: georgia;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b2cdd6;
+}
+.bannerleft p{
+	color: #fff;
+	line-height: 20px;
+}
+
+.bannerbutton{
+
+}
+
+.btn1 {
+    width: 155px;
+    float: left;
+    background: #fff none repeat scroll 0 0;
+    margin-right: 50px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+.btn1 a {
+    color: #999;
+    text-align: center;
+    font-size: 22px;
+    font-family: georgia;
+    font-weight: normal;
+}
+.btn1 a:hover{
+
+}
+
+.bannerright{
+	float: right;
+	width: 460px;
+}
+.bannerright img {
+    margin-top: 45px;
+    border: 1px solid #666;
+    background: #eaf2f4;
+    padding: 8px;
+}
+
+.servicesection{
+	background: #eaf2f4;
+}
+.allservice{
+	margin: 30px 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #fff;
+}
+.service {
+    width: 230px;
+    float: left;
+    border: 1px solid #cdd8d8;
+}
+.service h2{
+	font-family: georgia;
+	font-size: 22px;
+	color: #049bac;
+	background: #f1f7f7;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.sameservice{
+	padding: 0 10px 10px;
+}
+.sameservice h3 {
+    font-family: georgia;
+    font-size: 22px;
+    color: #666666;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.sameservice p{
+	color: #666666;
+}
+.sameservice a{
+	float: right;
+	padding-bottom: 5px;
+}
+.sameservice a:hover{
+
+}
+
+.contentsection{
+	background: #eaf2f4;
+}
+.contentleft{
+	float: left;
+	width: 420px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.contentleft h2{
+	font-family: georgia;
+    font-size: 22px;
+    color: #666666;
+    padding-bottom: 10px;
+}
+
+.contentleftall {
+    padding-top: 20px;
+    border: 1px solid #cdd8d8;
+    padding-bottom: 20px;
+}
+.leftimg{
+	float: left;
+	width: 95px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.leftimg img {
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #444;
+}
+
+.righttext {
+    float: left;
+    width: 300px;
+}
+.righttext h4{
+	color: #666666;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.righttext p {
+    color: #666666;
+    margin-bottom: 8px;
+    line-height: 15px;
+}
+.righttext a{
+	float: right;
+	color: #444;
+}
+.righttext a:hover{
+
+}
+
+.contentright{
+	float: right;
+	width: 500px;
+	margin-right: 20px;
+}
+.contentright h2{
+	font-family: georgia;
+    font-size: 22px;
+    color: #666666;
+    border-bottom: 1px solid #cdd8d8;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+}
+.contentright img{
+	float: left;
+	margin-right: 20px;
+	background: #fff;
+    padding: 5px;
+    border: 1px solid #444;
+}
+.contentright h4{
+	color: #666666;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.contentright p{
+	color: #666666;
+    margin-bottom: 12px;
+    line-height: 15px;
+}
+
+.footertop{
+	background: url(images/footerbg.png);
+	height: 220px;
+	border-bottom: 2px solid #3d3d3d;
+}
+.samefooter{
+	float: left;
+	width: 305px;
+	margin-left: 20px;
+}
+.samefooter h2 {
+    font-family: georgia;
+    font-size: 22px;
+    color: #b5b5b5;
+    border-bottom: 1px solid #b5b5b5;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+.samefooter p {
+    margin-bottom: 10px;
+    color: #99989a;
+}
+.samefooter input[type="text"] {
+    width: 230px;
+    padding: 5px;
+    margin-bottom: 15PX;
+}
+.samefooter input[type="submit"] {
+    padding: 5px;
+    cursor: pointer;
+}
+.samefooter a{
+	color: #b5b5b5;
+}
+.samefooter a:hover{
+
+}
+.samefooter ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.samefooter ul li{
+	color: #049bac;
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.samefooter ul li a{
+	color: #b5b5b5;
+	font-weight: normal;
+}
+.samefooter ul li a:hover{
+
+}
+.footerbottom {
+    background: url(images/footerbottombg.png);
+    color: #fff;
+    padding-top: 15px;
+}
+.footleft{
+
+}
+.footleft p{
+	float: left;
+	margin-left: 20px;
+}
+.footright{
+
+}
+.footright p{
+	float: right;
+	margin-right: 20px;
+}
