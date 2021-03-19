@@ -1,0 +1,416 @@
+/*-----Responsive Design-----*/
+
+/*-----Medium Layout-----*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .area{
+        width: 992px;
+    }
+    .logo {
+        width: 150px;
+        margin: 40px 20px 20px 20px;
+    }
+    .menu {
+        width: 744px;
+        margin: 35px 20px 20px 20px;
+    }
+    .hero {
+        padding: 100px;
+    }
+    .hero h1 {
+        font-size: 59px;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+    .underline {
+        margin: 0 330px;
+    }
+    .single-feature {
+        width: 376px;
+    }
+    .feature-left {
+        width: 254px;
+    }
+    .feature-left img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .feature-right {
+        width: 476px;
+        margin: 0;
+    }
+    .install {
+        padding: 20px 20px;
+    }
+    .install-main {
+        width: 350px;
+    }
+    .single-service:first-child, .single-service:nth-child(4), .single-service:nth-child(5){
+        background-color: #f8f8f8;
+    }
+    .single-service {
+        width: 376px;
+    }
+    .single-service:nth-child(3){
+        background-color: #fff;
+    }
+    .call-under {
+        margin: 0 280px;
+    }
+    .price-under {
+        margin: 0px 307px;
+    }
+    .price {
+        padding: 80px 20px;
+    }
+    .single-price {
+        width: 224px;
+    }
+    .about-under {
+        margin: 0px 325px;
+    }
+    .single-about {
+        width: 237px;
+    }
+    .test-under {
+        margin: 0px 301px;
+    }
+}
+/*-----Tablet Layout-----*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    .area{
+        width: 768px;
+    }
+    .logo {
+        width: 100px;
+        margin: 40px 20px 20px;
+    }
+    .logo h4 {
+        font-size: 24px;
+    }
+    .logo a {
+        padding: 0 20px;
+    }
+    .menu {
+        width: 590px;
+        margin: 35px 0px 20px 0px;
+    }
+    .menu ul {
+        padding: 0 20px;
+    }
+    .menu ul li a {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .hero {
+        padding: 40px;
+    }
+    .hero h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+    .underline {
+        margin: 0 218px;
+    }
+    .single-feature {
+        width: 264px;
+    }
+    .feature-left img {
+        padding-left: 70px;
+    }
+    .single-service {
+        width: 264px;
+    }
+    .single-service:first-child, .single-service:nth-child(4), .single-service:nth-child(5){
+        background-color: #f8f8f8;
+    }
+    .single-service:nth-child(3){
+        background-color: #fff;
+    }
+    .call-under {
+        margin: 0 168px;
+    }
+    .call-box p {
+        padding: 50px 0;
+    }
+    .price-under {
+        margin: 0px 195px;
+    }
+    .price {
+        padding: 80px 0px;
+    }
+    .single-price {
+        width: 172px;
+        padding: 15px;
+    }
+    .benefit ul li {
+        font-size: 14px;
+    }
+    .about-under {
+        margin: 0px 213px;
+    }
+    .single-about {
+        width: 162px;
+    }
+    .test-under {
+        margin: 0px 189px;
+    }
+    .test-box p {
+        padding: 40px 0;
+    }
+}
+/*-----Mobile Layout-----*/
+@media only screen and (min-width:320px) and (max-width:767px){
+    .area{
+        width: 320px;
+    }
+    .logo {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .logo a {
+        padding: 0 100px;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+    }
+    .menu ul {
+        list-style: none;
+        text-align: center;
+        padding: 0 40px;
+    }
+    .menu ul li {
+        text-align: center;
+        display: block;
+    }
+    .hero {
+        padding: 15px 0;
+    }
+    .hero h1 {
+        font-size: 22px;
+    }
+    .hero p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .features {
+        padding: 20px 0px;
+    }
+    .single-feature {
+        width: 120px;
+    }
+    .feature-install {
+        padding: 20px 0;
+    }
+    .feature-left {
+        width: 300px;
+        padding: 0 15px;
+    }
+    .feature-right {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .install-main {
+        width: 271px;
+    }
+    .install-icon {
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .install-main p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    .service-box {
+        padding: 20px 0;
+    }
+    .services {
+        padding: 20px 0;
+    }
+    .single-service {
+        width: 280px;
+    }
+    .price {
+        padding: 20px 0;
+    }
+    .single-price {
+        width: 280px;
+    }
+    .single-about {
+        width: 280px;
+    }
+    .test-box p {
+        padding: 20px 50px;
+    }
+    .footer {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .social ul li a {
+        font-size: 25px;
+    }
+    .under {
+        margin: 0px 22px;
+    }
+    #under{
+        margin: 0 81px;
+    }
+    .underline h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .call-box, .price-box, .test-box {
+        padding: 20px 0;
+    }
+    .about-box{
+        padding: 0;
+    }
+    .call-under, .price-under, .about-under, .about-under, .test-under {
+        margin: 0 81px;
+    }
+    .call-under h1, .price-under h1, .about-under h1, .test-under h1 {
+        font-size: 26px;
+    }
+    .test-under h1 {
+        margin-bottom: 10px;
+    }
+}
+/*-----Wide Mobile Layout-----*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .area{
+        width: 480px;
+    }
+    .logo {
+        width: 100%;
+        margin: 0;
+        padding: 20px 80px;
+    }
+    .logo a {
+        padding: 0 100px;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+    }
+    .menu ul {
+        list-style: none;
+        text-align: center;
+        padding: 0 40px;
+    }
+    .menu ul li {
+        text-align: center;
+        display: block;
+    }
+    .hero {
+        padding: 20px 0;
+    }
+    .hero h1 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .hero p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .feature-box {
+        padding: 50px 0;
+    }
+    .features {
+        padding: 20px 0px;
+    }
+    .single-feature {
+        width: 200px;
+    }
+    .feature-install {
+        padding: 20px 0;
+    }
+    .feature-left {
+        width: 400px;
+        padding: 0 40px;
+    }
+    .feature-right {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .install-main {
+        width: 317px;
+        padding-right: 40px;
+    }
+    .install-icon {
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .install-main p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    .service-box {
+        padding: 20px 0;
+    }
+    .services {
+        padding: 20px 0;
+    }
+    .single-service {
+        width: 400px;
+        padding: 30px 40px;
+    }
+    .price {
+        padding: 20px 0;
+    }
+    .single-price {
+        width: 440px;
+    }
+    .about{
+        padding: 20px 0;
+    }
+    .single-about {
+        width: 400px;
+        padding: 30px 40px;
+    }
+    .test-box p {
+        padding: 20px 50px;
+    }
+    .footer {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .social ul li a {
+        font-size: 25px;
+    }
+    .under {
+        margin: 0px 183px;
+    }
+    #under {
+        margin: 0 184px;
+    }
+    .underline h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .call-box, .price-box, .test-box {
+        padding: 20px 0;
+    }
+    .about-box{
+        padding: 0;
+    }
+    .call-under, .price-under, .about-under, .about-under, .test-under {
+        margin: 0 161px;
+    }
+    .call-under h1, .price-under h1, .about-under h1, .test-under h1 {
+        font-size: 26px;
+    }
+    .test-under h1 {
+        margin-bottom: 10px;
+    }
+}
